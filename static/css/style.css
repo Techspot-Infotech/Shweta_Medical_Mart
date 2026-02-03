@@ -126,13 +126,41 @@ a {
 }
 
 @media (max-width: 768px) {
-    .carousel-item {
-        height: 60vh;
-        min-height: 500px;
+    /* .carousel-item {
+        height: auto;
+        min-height: auto;
+    } */
+
+    /* Typography Tweaks for Small Mobiles */
+    .display-3 {
+        font-size: 2.2rem;
+        /* Reduce slightly for better fit */
+        word-wrap: break-word;
     }
 
-    .display-3 {
-        font-size: 2.5rem;
+    /* Floating Buttons Mobile Optimization */
+    .fixed-floating-buttons {
+        bottom: 20px;
+        right: 15px;
+        gap: 12px;
+    }
+
+    .floating-btn {
+        width: 50px;
+        /* Smaller size for mobile */
+        height: 50px;
+        font-size: 24px;
+    }
+
+    /* Modal Mobile Optimization */
+    #enquiryModal .modal-dialog {
+        bottom: 70px;
+        right: 50%;
+        transform: translateX(50%);
+        /* Force Center */
+        width: 95%;
+        margin: 0;
+        left: auto;
     }
 }
 
