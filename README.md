@@ -62,7 +62,7 @@ If you have Python installed or use VS Code:
 
 ```
 Shweta_Medical_Mart/
-├── index.html            # Main Landing Page (Hero, Features, Testimonials, FAQ)
+├── index.html            # Main Landing Page (Hero, Features)
 ├── about.html            # About Us Page
 ├── gallery.html          # Gallery Overview Page
 ├── category.html         # Dynamic Category Gallery Page (handles ?cat=x)
