@@ -17,7 +17,7 @@ The website provides a seamless user experience for browsing services, viewing p
 *   **🌐 Complete Multilingual Support**: 
     *   Fully localized in **English**, **Marathi**, and **Hindi**.
     *   Instant language switching using `localStorage` persistence.
-    *   Covers all pages including Gallery, Testimonials, and FAQs.
+    *   Covers all pages including Gallery.
 *   **🏃 Fast & Static**: No server-side processing required. Pages load instantly and can be hosted freely on platforms like GitHub Pages.
 *   **🏥 Trusted Identity**: A consistent **Medical Green** theme across the site to build trust and brand recognition.
 *   **🖼️ Dynamic Gallery**: 
