@@ -27,7 +27,7 @@ The website provides a seamless user experience for browsing services, viewing p
 *   **📅 WhatsApp Integration**: 
     *   **Direct Booking**: Appointment forms send structured WhatsApp messages.
     *   **Enquiry Forms**: General enquiries are also routed to WhatsApp for quick response.
-*   **❓ Testimonials & FAQ**: Dedicated sections to build credibility and answer common customer questions.
+
 *   **📱 Responsive & Modern**: Built with **Bootstrap 5** and custom CSS for a "Glassmorphism" feel that works on all devices.
 *   **📍 Location & Contact**: Integrated Google Maps and one-click floating action buttons for Call, WhatsApp, and Email.
 
