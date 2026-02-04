@@ -38,7 +38,6 @@ The website provides a seamless user experience for browsing services, viewing p
 *   **Animations**: AOS (Animate On Scroll) Library
 *   **Icons**: FontAwesome
 
-
 ## 🚀 Installation & Usage
 
 **No installation required!** This is a static site.
@@ -96,7 +95,7 @@ The project uses a lightweight, custom localization engine:
 **Shweta Medical Mart**
 *   **Address**: Near Civil Hospital, Sangli–Miraj Road, Sangli, Maharashtra
 *   **Phone**: +91 99233 46656
-*   **Email**: info@shwetamedicalmart.in
+*   **Email**: shwetamedicalmart@gmail.com
 
 ---
 *Developed by Techspot Infotech LLP*
