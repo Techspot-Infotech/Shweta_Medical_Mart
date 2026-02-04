@@ -126,16 +126,60 @@ a {
 }
 
 @media (max-width: 768px) {
-    /* .carousel-item {
-        height: auto;
-        min-height: auto;
-    } */
 
-    /* Typography Tweaks for Small Mobiles */
+    /* Typography Tweaks */
     .display-3 {
         font-size: 2.2rem;
-        /* Reduce slightly for better fit */
         word-wrap: break-word;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.25rem;
+    }
+
+    /* Layout Adjustments */
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    section {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    /* Hero Section Fixes */
+    .hero {
+        min-height: auto !important;
+        padding-top: 5rem !important;
+        /* Account for navbar */
+        padding-bottom: 3rem !important;
+        text-align: center;
+    }
+
+    .hero .col-lg-6 {
+        text-align: center !important;
+    }
+
+    .hero .d-flex {
+        justify-content: center !important;
+        flex-wrap: wrap;
+    }
+
+    .hero img {
+        margin-top: 2rem;
     }
 
     /* Floating Buttons Mobile Optimization */
@@ -147,7 +191,6 @@ a {
 
     .floating-btn {
         width: 50px;
-        /* Smaller size for mobile */
         height: 50px;
         font-size: 24px;
     }
@@ -157,10 +200,14 @@ a {
         bottom: 70px;
         right: 50%;
         transform: translateX(50%);
-        /* Force Center */
         width: 95%;
         margin: 0;
         left: auto;
+    }
+
+    /* Footer Map */
+    .footer-map-container {
+        height: 200px;
     }
 }
 
@@ -222,7 +269,20 @@ a {
     right: 20px;
     margin: 0;
     max-width: 380px;
-    width: 90%;
+    width: 100%;
+    /* Responsive width */
+}
+
+@media (max-width: 576px) {
+    #enquiryModal .modal-dialog {
+        bottom: 70px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        width: 90%;
+        /* Fit within mobile screen */
+        transform: none !important;
+    }
 }
 
 #enquiryModal .modal-content {
@@ -243,6 +303,28 @@ a {
     background-color: var(--primary-green);
     position: relative;
     overflow: hidden;
+    padding-bottom: 0 !important;
+    /* Allow footer-bottom to handle its own padding/bg */
+}
+
+.footer-bottom {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-map-container {
+    height: 250px;
+    transition: all 0.3s ease;
+    border: 4px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.footer-link {
+    transition: all 0.3s ease;
+    display: inline-block;
+    padding: 2px 0;
 }
 
 .footer-link:hover {
@@ -250,15 +332,21 @@ a {
     transform: translateX(6px);
 }
 
+.footer h6 {
+    position: relative;
+    padding-bottom: 15px;
+}
+
 .footer h6::after {
     content: '';
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 30px;
-    height: 2px;
+    width: 40px;
+    height: 3px;
     background: #fff;
-    opacity: 0.5;
+    opacity: 0.7;
+    border-radius: 2px;
 }
 
 /* Preloader */
@@ -300,23 +388,7 @@ a {
 
 
 
-/* Scroll Top */
-#scrollTop {
-    position: fixed;
-    bottom: 100px;
-    right: 25px;
-    width: 50px;
-    height: 50px;
-    z-index: 99;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-}
 
-#scrollTop:hover {
-    transform: translateY(-5px);
-}
 
 /* Carousel Fast Transition */
 .carousel-item {
